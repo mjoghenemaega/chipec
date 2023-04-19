@@ -595,10 +595,10 @@ $(document).ready(function () {
 
     // Google Map api v3 - Map for contact pages
     if ( document.getElementById("map") && typeof google === "object" ) {
-
+        
         var content =   '<address>' +
-                            '88 Pine St,<br>' +
-                            'New York, NY 10005, USA<br>'+
+                            '26 Osemene St,<br>' +
+                            'Mafoluku Oshodi ,102214 , Lagos <br>'+
                             '<a href="#" class="direction-link" target="_blank">Get Directions <i class="icon-angle-right"></i></a>'+
                         '</address>';
 
