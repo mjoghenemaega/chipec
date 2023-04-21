@@ -265,8 +265,8 @@ $(document).ready(function () {
                 navText: ['<i class="icon-angle-left">', '<i class="icon-angle-right">'],
                 dots: true,
                 smartSpeed: 400,
-                autoplay: false,
-                autoplayTimeout: 15000
+                autoplay: true,
+                autoplayTimeout: 10000
             };
             if (typeof $wrap == 'undefined') {
                 $wrap = $('body');
